@@ -1,8 +1,6 @@
 import streamlit as st
 from OSMPythonTools.overpass import Overpass, overpassQueryBuilder
 import osm
-import importlib
-importlib.reload(osm)
 import h3
 H3_LEVEL = 12
 import pandas as pd
